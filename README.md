@@ -13,7 +13,7 @@
 
 Projeto criado no curso básico de javascript. Curso apresentado pela Stephany Nusch na plataforma da DIO - Digital Innovation One
 
-Aplicação de contador:
+Aplicação de contador (desenvolvido no curso):
 <img src="./assets/img/contador.png" alt="Aplicação"/>
 
 ## :rocket: Technologies ##
