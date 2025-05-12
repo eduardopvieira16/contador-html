@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contador interativo - Projeto DIO">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Contador Interativo</title>
+</head>
+
+<body>
+    <main class="container">
+        <header class="header">
+            <h1>Contador Interativo</h1>
+            <p class="subtitle">Atividade prática do curso DIO</p>
+        </header>
+
+        <section class="counter">
+            <button id="subtract" class="btn-action" aria-label="Diminuir">
+                <i class="fas fa-minus"></i>
+            </button>
+            <div id="currentNumber" class="counter-display">0</div>
+            <button id="add" class="btn-action" aria-label="Aumentar">
+                <i class="fas fa-plus"></i>
+            </button>
+        </section>
+
+        <button id="reset" class="btn-reset">
+            <i class="fas fa-redo"></i> Resetar
+        </button>
+    </main>
+
+    <script src="./assets/js/scripts.js"></script>
+</body>
+
+</html>
